@@ -1,0 +1,11 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.Screens.RepsChartPage"
+             xmlns:microcharts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
+             Title="Повторы">
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Picker x:Name="TypePicker" SelectedIndexChanged="OnTypeSelected"/>
+        <Label x:Name="StatsLabel" FontAttributes="Bold" />
+        <microcharts:ChartView x:Name="Chart" HeightRequest="300" />
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.Screens.WorkoutDetailPage"
+             Title="{Binding Workout.Name}">
+    <StackLayout Padding="20">
+        <Label Text="{Binding Workout.Type}" FontAttributes="Italic"/>
+        <Label Text="{Binding Workout.Date}" />
+
+        <StackLayout Padding="10" Spacing="10">
+            <Entry x:Name="NameEntry" Placeholder="Название упражнения" />
+            <Entry x:Name="RepsEntry" Placeholder="Повторы" Keyboard="Numeric" />
+            <Entry x:Name="SetsEntry" Placeholder="Подходы" Keyboard="Numeric" />
+            <Entry x:Name="WeightEntry" Placeholder="Вес (кг)" Keyboard="Numeric" />
+            <Picker x:Name="TypePicker" Title="Тип упражнения" />
+            <Button Text="Сохранить упражнение" Clicked="OnAddExerciseClicked"/>
+        </StackLayout>
+
+        <CollectionView x:Name="ExerciseList" ItemsSource="{Binding Exercises}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10">
+                        <Label Text="{Binding Name}" FontAttributes="Bold"/>
+                        <Label Text="Повторы: {Binding Reps}, Подходы: {Binding Sets}, Вес: {Binding Weight} кг"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

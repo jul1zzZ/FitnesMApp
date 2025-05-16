@@ -1,0 +1,85 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FitnessApp
+build_property.ProjectDir = C:\Users\jusep\source\repos\FitnessApp\FitnessApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/jusep/source/repos/FitnessApp/FitnessApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/jusep/source/repos/FitnessApp/FitnessApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/jusep/source/repos/FitnessApp/FitnessApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/jusep/source/repos/FitnessApp/FitnessApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/jusep/source/repos/FitnessApp/FitnessApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/jusep/source/repos/FitnessApp/FitnessApp/Screens/ProgressPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Screens.ProgressPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Screens\ProgressPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Screens\ProgressPage.xaml
+
+[C:/Users/jusep/source/repos/FitnessApp/FitnessApp/Screens/ProgressTabbedPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Screens.ProgressTabbedPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Screens\ProgressTabbedPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Screens\ProgressTabbedPage.xaml
+
+[C:/Users/jusep/source/repos/FitnessApp/FitnessApp/Screens/RepsChartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Screens.RepsChartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Screens\RepsChartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Screens\RepsChartPage.xaml
+
+[C:/Users/jusep/source/repos/FitnessApp/FitnessApp/Screens/SetsChartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Screens.SetsChartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Screens\SetsChartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Screens\SetsChartPage.xaml
+
+[C:/Users/jusep/source/repos/FitnessApp/FitnessApp/Screens/WeightChartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Screens.WeightChartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Screens\WeightChartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Screens\WeightChartPage.xaml
+
+[C:/Users/jusep/source/repos/FitnessApp/FitnessApp/Screens/WorkoutDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Screens.WorkoutDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Screens\WorkoutDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Screens\WorkoutDetailPage.xaml

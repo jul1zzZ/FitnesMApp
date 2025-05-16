@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="FitnessApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:FitnessApp"
+    xmlns:screens="clr-namespace:FitnessApp.Screens"
+    FlyoutBehavior="Flyout"
+    Title="FitnessApp">
+
+    <!-- Главная страница -->
+    <ShellContent Title="Главная">
+        <pages:MainPage />
+    </ShellContent>
+
+    <!-- Вкладка для прогресса -->
+    <TabBar>
+        <ShellContent Title="Прогресс" Icon="progress_icon.png">
+            <screens:ProgressTabbedPage />
+        </ShellContent>
+    </TabBar>
+
+</Shell>
